@@ -52,7 +52,7 @@ public class KhoiChuaVatPham : MonoBehaviour
             transform.localPosition = new Vector2(transform.localPosition.x, transform.localPosition.y - TocDoNay * Time.deltaTime);
             if (transform.localPosition.y <= ViTriLucDau.y) break;
             Destroy(gameObject);
-            GameObject KhoiRong = (GameObject)Instantiate(Resources.Load("Prefaps/KhoiTrong"));
+            GameObject KhoiRong = (GameObject)Instantiate(Resources.Load("Prefabs/KhoiTrong"));
             KhoiRong.transform.position = ViTriLucDau;
             yield return null;
         }

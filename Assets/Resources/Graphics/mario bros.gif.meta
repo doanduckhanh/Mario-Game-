@@ -1039,6 +1039,69 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: mario bros_44
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 954
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fb96623eba15b41a278fafc5ad7149
+      internalID: 1476382005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario bros_45
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1094
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09c06bf9e1fa294dbc2c6e440768e1b
+      internalID: -1414190313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario bros_46
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1054
+        width: 20
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a61a35836afdf04693c723441c2e555
+      internalID: 258177116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1057,11 +1120,13 @@ TextureImporter:
       mario bros_36: -447041711
       mario bros_4: -1694051412
       mario bros_2: -209632879
+      mario bros_46: 258177116
       mario bros_3: 98980675
       mario bros_0: -466241648
       mario bros_15: -329761137
       mario bros_30: -1461581250
       mario bros_10: -2119333509
+      mario bros_45: -1414190313
       mario bros_21: 1861851955
       mario bros_11: -1461081857
       mario bros_8: -1399484515
@@ -1086,6 +1151,7 @@ TextureImporter:
       mario bros_9: -1830317562
       mario bros_1: -1877061769
       mario bros_28: 830454614
+      mario bros_44: 1476382005
       mario bros_34: -73391250
       mario bros_12: 1783478529
       mario bros_23: -2117862202

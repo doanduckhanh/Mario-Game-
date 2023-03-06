@@ -21,7 +21,8 @@ public class MarioScript : MonoBehaviour
     //Hien thi cap do va do lon cua Mario
     public int CapDo = 0;
     public bool BienHinh = false;
-
+    //Vi tri mario luc chet
+    private Vector2 VitriChet;
     private AudioSource AmThanh;
     // Start is called before the first frame update
     void Start()
@@ -260,4 +261,14 @@ public class MarioScript : MonoBehaviour
     {
         AmThanh.PlayOneShot(Resources.Load<AudioClip>("Audio/" + FileAmThanh));
     }
+
+    public void MarioChet()
+    {
+        VitriChet = transform.localPosition;
+        GameObject MarioChet = (GameObject) Instantiate(Resources.Load("Prefabs/MarioChet"));
+        MarioChet.transform.localPosition = VitriChet;
+        Destroy(gameObject);
+    }
+
+    
 }
