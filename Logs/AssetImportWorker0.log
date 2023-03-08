@@ -1,0 +1,285 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16088 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Spring2023/PRU211m/project/Mario-Game-
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59717
+Successfully changed project path to: D:/Spring2023/PRU211m/project/Mario-Game-
+D:/Spring2023/PRU211m/project/Mario-Game-
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18000] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 2481565172 [EditorId] 2481565172 [Version] 1048832 [Id] WindowsEditor(7,vinhphu) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18000] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 2481565172 [EditorId] 2481565172 [Version] 1048832 [Id] WindowsEditor(7,vinhphu) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 57.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Spring2023/PRU211m/project/Mario-Game-/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3990 MB
+    Driver:   30.0.15.1274
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003819 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 43.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.430 seconds
+Domain Reload Profiling:
+	ReloadAssembly (431ms)
+		BeginReloadAssembly (54ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (301ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (74ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (174ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002489 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Spring2023\PRU211m\project\Mario-Game-\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Spring2023\PRU211m\project\Mario-Game-\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.671 seconds
+Domain Reload Profiling:
+	ReloadAssembly (671ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (512ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (149ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (249ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3235 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (56.4 KB). Loaded Objects now: 3695.
+Memory consumption went from 111.0 MB to 111.0 MB.
+Total: 2.930700 ms (FindLiveObjects: 0.278700 ms CreateObjectMapping: 0.103600 ms MarkObjects: 2.476900 ms  DeleteObjects: 0.070200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 357.638547 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4935f35005d3ccd51bf39964504ff1b7') in 0.013484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.726420 seconds.
+  path: Assets/Scenes/Level1-3.unity
+  artifactKey: Guid(7a28442104a6d704e8bdfe4dfb81122a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1-3.unity using Guid(7a28442104a6d704e8bdfe4dfb81122a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7245e2b2dc04960d7f25876f65a036d') in 0.008824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.410397 seconds.
+  path: Assets/Script/CameraScript.cs
+  artifactKey: Guid(9ba063f900d31a3429455b3cc2e3085e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/CameraScript.cs using Guid(9ba063f900d31a3429455b3cc2e3085e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f560c5298f2acd946a33f50ac55176c6') in 0.022103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.379080 seconds.
+  path: Assets/Resources/Audio/MarioDie.wav
+  artifactKey: Guid(c30c3f9df13b1604eaaa7ea13717c467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/MarioDie.wav using Guid(c30c3f9df13b1604eaaa7ea13717c467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b85b54c29500dab3fb453b5e05092a') in 0.181323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Resources/Audio/smb_powerup_appears.wav
+  artifactKey: Guid(0287b9d0f29284c4faa83cb74ef34fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/smb_powerup_appears.wav using Guid(0287b9d0f29284c4faa83cb74ef34fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26e063399cb9ac12115d8efe1a7f38a') in 0.016316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Resources/Audio/smb_fireball.wav
+  artifactKey: Guid(1ac348ee085dd934b863c001572f204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/smb_fireball.wav using Guid(1ac348ee085dd934b863c001572f204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986819f3aa254c8e1ebb9079e83523cc') in 0.018171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Resources/Audio/smb_breakblock.wav
+  artifactKey: Guid(aa13f873516ebce4aa2d7dd9e09053a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/smb_breakblock.wav using Guid(aa13f873516ebce4aa2d7dd9e09053a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074229fd627f7dfba8b6649eb52bc873') in 0.018603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/Audio/smb_bump.wav
+  artifactKey: Guid(380e4a54cabdc204bb308a66db75a9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/smb_bump.wav using Guid(380e4a54cabdc204bb308a66db75a9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5578a9d4b18091ac4cc16acfceb20567') in 0.029268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Resources/Audio/smb_1-up.wav
+  artifactKey: Guid(0300f455d4275084ea6d475d1e0e306f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/smb_1-up.wav using Guid(0300f455d4275084ea6d475d1e0e306f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f479559d840b8f27142b96080301bb81') in 0.021890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Resources/Audio/smb_stomp.wav
+  artifactKey: Guid(54c201e10dcd4fc40914a97f851c3230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/smb_stomp.wav using Guid(54c201e10dcd4fc40914a97f851c3230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada7ec6af0051bfc4e412b685b3255e0') in 0.022816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Resources/Audio/smb_kick.wav
+  artifactKey: Guid(4db68b3bd70d1af4a8ce436d308a949b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/smb_kick.wav using Guid(4db68b3bd70d1af4a8ce436d308a949b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4cb3904dc956f3a01f27a4a2aa5a589') in 0.032910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resources/Audio/smb_vine.wav
+  artifactKey: Guid(bd3dd26680d1dbb46b28c7da596c476f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/smb_vine.wav using Guid(bd3dd26680d1dbb46b28c7da596c476f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498405ca829e2d6c02655c7ebab97fc2') in 0.018398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Resources/Audio/smb_flagpole.wav
+  artifactKey: Guid(a247f3e465836544fb113ee74b481798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/smb_flagpole.wav using Guid(a247f3e465836544fb113ee74b481798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c5d4b3ca7b36e0035b8730d54904ec') in 0.023521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.592491 seconds.
+  path: Assets/Resources/Fonts/PressStart2P-Regular.ttf
+  artifactKey: Guid(ea9bc526012e94142bd7d09f86e32edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Fonts/PressStart2P-Regular.ttf using Guid(ea9bc526012e94142bd7d09f86e32edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a97cdf93b388c53f1d0849b21bef63') in 0.099610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.640457 seconds.
+  path: Assets/Resources/Graphics/1-1.png
+  artifactKey: Guid(1856ac372d419a141a66f3ed39343dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Graphics/1-1.png using Guid(1856ac372d419a141a66f3ed39343dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7f11ea6625ef0bffc664c6beb34ddd') in 0.089474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.884001 seconds.
+  path: Assets/Resources/Prefaps/KhoiHoiCham.prefab
+  artifactKey: Guid(23f167ee41afa354bb7ec4a9749d054a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefaps/KhoiHoiCham.prefab using Guid(23f167ee41afa354bb7ec4a9749d054a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f32b82cd2a75d735c98f91762ff1186') in 0.039585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Prefaps/OngNuoc1.prefab
+  artifactKey: Guid(b19c0387d225f714ab9fd1fab5c1a035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefaps/OngNuoc1.prefab using Guid(b19c0387d225f714ab9fd1fab5c1a035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8b050129268e1eebb0b35ed9149ca8') in 0.017064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Resources/Prefaps/RuaXanh.prefab
+  artifactKey: Guid(4aa97ff48f2ce4a4bbf42aedafd4bbc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefaps/RuaXanh.prefab using Guid(4aa97ff48f2ce4a4bbf42aedafd4bbc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '594d207e0fa0a2cfc4f84ba3fc51162d') in 0.017837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Prefaps/OngNuoc3.prefab
+  artifactKey: Guid(fc1340065acc76d4c818565b205aa00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefaps/OngNuoc3.prefab using Guid(fc1340065acc76d4c818565b205aa00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f31c1b2a09a092de094db69f412bd4b') in 0.017171 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
