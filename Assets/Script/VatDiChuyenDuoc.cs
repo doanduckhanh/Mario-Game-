@@ -10,18 +10,18 @@ public class VatDiChuyenDuoc : MonoBehaviour
     private void FixedUpdate()
     {
         Vector2 DiChuyen = transform.localPosition;
-        if (DiChuyenTrai==true) { DiChuyen.x += VanTocVat * Time.deltaTime; }
-        else { DiChuyen.x -= VanTocVat * Time.deltaTime; }
+        if (DiChuyenTrai==true) { DiChuyen.x -= VanTocVat * Time.deltaTime; }
+        else { DiChuyen.x += VanTocVat * Time.deltaTime; }
         transform.localPosition = DiChuyen;
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.tag != "Player" && collision.contacts[0].normal.x > 0)
+        if (collision.contacts[0].normal.x > 0)
         {
             DiChuyenTrai = false;
             QuayMat();
         }
-        else if (collision.collider.tag != "Player" && collision.contacts[0].normal.x < 0)
+        else 
         { 
             DiChuyenTrai = true;
             QuayMat();
