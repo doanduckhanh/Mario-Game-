@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 9148811852272721321}
   - component: {fileID: 9148811852272721322}
   - component: {fileID: 6836997817647691949}
+  - component: {fileID: 4496826826868287899}
   m_Layer: 0
   m_Name: RuaXanh
   m_TagString: KeThu
@@ -31,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 9148811852272721323}
   m_LocalRotation: {x: -0, y: -0.99998343, z: -0, w: 0.005759207}
   m_LocalPosition: {x: 24.6821, y: -5.44, z: 0}
-  m_LocalScale: {x: 0.9642, y: 0.9761, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -180,5 +181,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 28bb915d1ffcd6d4bbc9139d6c4fba24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4496826826868287899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9148811852272721323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d4b7a9d4d285141a630f9e8f8a25fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

@@ -22,6 +22,6 @@ public class KeThuScript : MonoBehaviour
             {
                 Mario.GetComponent<MarioScript>().MarioChet();
             }
-        }
+        }      
     }
 }

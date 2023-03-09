@@ -4,10 +4,16 @@ using UnityEngine;
 
 public class KhoiChuaVatPham : MonoBehaviour
 {
-    public float DoNayKhoi = 0.5f;
-    public float TocDoNay = 4f;
+    private float DoNayKhoi = 0.5f;
+    private float TocDoNay = 4f;
     private bool DuocNay = true;
     private Vector2 ViTriLucDau;
+
+    //Cac bien
+    public bool ChuaNam = false;
+    public bool ChuaXu = false;
+    public bool ChuaSao = false;
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -27,7 +33,10 @@ public class KhoiChuaVatPham : MonoBehaviour
         {
             ViTriLucDau = transform.position;            
             KhoiNayLen();
+            if (ChuaNam)
+            {
 
+            }
         }
     }
     void KhoiNayLen()
@@ -36,7 +45,6 @@ public class KhoiChuaVatPham : MonoBehaviour
         {           
             StartCoroutine(KhoiNay());
             DuocNay = false;
-
         }
     }
     IEnumerator KhoiNay()
