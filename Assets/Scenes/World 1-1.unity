@@ -1839,7 +1839,7 @@ BoxCollider2D:
   m_EdgeRadius: 0
 --- !u!95 &402385782
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 95412122947624198, guid: ee80148a6a6634492a197a751d0e2e2e,
     type: 3}
@@ -1857,7 +1857,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!212 &402385783
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3407,7 +3407,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1485481461405040, guid: 8130008fbd8044b4e94595114a970409, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4908287474821086, guid: 8130008fbd8044b4e94595114a970409, type: 3}
       propertyPath: m_RootOrder
