@@ -16,11 +16,10 @@ public class MoveAndFlip : MonoBehaviour {
 	public Vector2 Speed = new Vector2 (3, 0);
 	private Rigidbody2D m_Rigidbody2D;
 	private GameObject mario;
-
 	// Use this for initialization
 	void Start () {
 		m_Rigidbody2D = GetComponent<Rigidbody2D>();
-		mario = FindObjectOfType<Mario> ().gameObject;
+		mario = FindObjectOfType<Mario> ().gameObject;		
 		OrientSprite ();
 	}
 
@@ -28,16 +27,15 @@ public class MoveAndFlip : MonoBehaviour {
 	void Update() {
 		if (!canMove & Mathf.Abs (mario.transform.position.x - transform.position.x) <= minDistanceToMove && canMoveAutomatic) {
 			canMove = true;
+			
 		}
 	}
 
-	void OnBecameVisible()
-	{
-		if (canMoveAutomatic)
-		{
-			canMove = true;
-		}
-	}
+//	void OnBecameVisible() {
+//		if (canMoveAutomatic) {
+//			canMove = true;
+//		}
+//	}
 
 	// Assuming default sprites face right
 	void OrientSprite() {
